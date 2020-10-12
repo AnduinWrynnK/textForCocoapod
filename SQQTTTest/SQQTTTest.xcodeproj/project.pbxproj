@@ -16,7 +16,7 @@
 		E0217EED25346DD600F04C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0217EEC25346DD600F04C5D /* main.m */; };
 		E0217EF725346DD600F04C5D /* SQQTTTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0217EF625346DD600F04C5D /* SQQTTTestTests.m */; };
 		E0217F0225346DD600F04C5D /* SQQTTTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0217F0125346DD600F04C5D /* SQQTTTestUITests.m */; };
-		E0217F1525346DF700F04C5D /* CocoaPodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0217F1425346DF700F04C5D /* CocoaPodTest.m */; };
+		E0217F2C253471E200F04C5D /* CocoaPodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0217F2B253471E200F04C5D /* CocoaPodTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		E0217EFD25346DD600F04C5D /* SQQTTTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQQTTTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0217F0125346DD600F04C5D /* SQQTTTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQQTTTestUITests.m; sourceTree = "<group>"; };
 		E0217F0325346DD600F04C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0217F1325346DF700F04C5D /* CocoaPodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPodTest.h; sourceTree = "<group>"; };
-		E0217F1425346DF700F04C5D /* CocoaPodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPodTest.m; sourceTree = "<group>"; };
+		E0217F2A253471E200F04C5D /* CocoaPodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPodTest.h; sourceTree = "<group>"; };
+		E0217F2B253471E200F04C5D /* CocoaPodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPodTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		E0217ED925346DD500F04C5D /* SQQTTTest */ = {
 			isa = PBXGroup;
 			children = (
-				E0217F1225346DF700F04C5D /* Classes */,
+				E0217F29253471E200F04C5D /* Classes */,
 				E0217EDA25346DD500F04C5D /* AppDelegate.h */,
 				E0217EDB25346DD500F04C5D /* AppDelegate.m */,
 				E0217EDD25346DD500F04C5D /* SceneDelegate.h */,
@@ -141,14 +141,14 @@
 			path = SQQTTTestUITests;
 			sourceTree = "<group>";
 		};
-		E0217F1225346DF700F04C5D /* Classes */ = {
+		E0217F29253471E200F04C5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0217F1325346DF700F04C5D /* CocoaPodTest.h */,
-				E0217F1425346DF700F04C5D /* CocoaPodTest.m */,
+				E0217F2A253471E200F04C5D /* CocoaPodTest.h */,
+				E0217F2B253471E200F04C5D /* CocoaPodTest.m */,
 			);
 			path = Classes;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -282,7 +282,7 @@
 				E0217EE225346DD500F04C5D /* ViewController.m in Sources */,
 				E0217EDC25346DD500F04C5D /* AppDelegate.m in Sources */,
 				E0217EED25346DD600F04C5D /* main.m in Sources */,
-				E0217F1525346DF700F04C5D /* CocoaPodTest.m in Sources */,
+				E0217F2C253471E200F04C5D /* CocoaPodTest.m in Sources */,
 				E0217EDF25346DD500F04C5D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
