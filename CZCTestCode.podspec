@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CZCTestCode"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of CZCTestCode."
+  spec.version      = "1.0.0"
+  spec.summary      = "一个建立pod仓库的简单demo."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                   这只是一个建立pod仓库的简单demo，并没有实际的意思。测试使用。
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/CZCTestCode"
+  spec.homepage     = "https://github.com/AnduinWrynnK/textForCocoapod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "冰原猫车侠" => "1254681237@qq.com" }
-  # Or just: spec.author    = "冰原猫车侠"
-  # spec.authors            = { "冰原猫车侠" => "1254681237@qq.com" }
+  spec.author             = { "AnduinWrynnK" => "1254681237@qq.com" }
+  # Or just: spec.author    = "AnduinWrynnK"
+  # spec.authors            = { "AnduinWrynnK" => "1254681237@qq.com" }
   # spec.social_media_url   = "https://twitter.com/冰原猫车侠"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/AnduinWrynnK/textForCocoapod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/AnduinWrynnK/textForCocoapod.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
