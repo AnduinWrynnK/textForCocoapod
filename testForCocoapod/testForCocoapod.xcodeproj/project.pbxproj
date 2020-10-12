@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05FB4692534529700DF8424 /* CocoaPodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E05FB4682534529700DF8424 /* CocoaPodTest.m */; };
 		E0B93DC325343ACF0022C9FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DC225343ACF0022C9FF /* AppDelegate.m */; };
 		E0B93DC625343ACF0022C9FF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DC525343ACF0022C9FF /* SceneDelegate.m */; };
 		E0B93DC925343ACF0022C9FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DC825343ACF0022C9FF /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		E0B93DD425343AD00022C9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DD325343AD00022C9FF /* main.m */; };
 		E0B93DDE25343AD00022C9FF /* testForCocoapodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DDD25343AD00022C9FF /* testForCocoapodTests.m */; };
 		E0B93DE925343AD00022C9FF /* testForCocoapodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DE825343AD00022C9FF /* testForCocoapodUITests.m */; };
-		E0B93DFC25343C410022C9FF /* THTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B93DFB25343C410022C9FF /* THTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E05FB4672534529700DF8424 /* CocoaPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodTest.h; sourceTree = "<group>"; };
+		E05FB4682534529700DF8424 /* CocoaPodTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodTest.m; sourceTree = "<group>"; };
 		E0B93DBE25343ACF0022C9FF /* testForCocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testForCocoapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B93DC125343ACF0022C9FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0B93DC225343ACF0022C9FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		E0B93DE425343AD00022C9FF /* testForCocoapodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testForCocoapodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B93DE825343AD00022C9FF /* testForCocoapodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testForCocoapodUITests.m; sourceTree = "<group>"; };
 		E0B93DEA25343AD00022C9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0B93DFA25343C410022C9FF /* THTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THTableViewCell.h; sourceTree = "<group>"; };
-		E0B93DFB25343C410022C9FF /* THTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +144,8 @@
 		E0B93DF925343C2B0022C9FF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0B93DFA25343C410022C9FF /* THTableViewCell.h */,
-				E0B93DFB25343C410022C9FF /* THTableViewCell.m */,
+				E05FB4672534529700DF8424 /* CocoaPodTest.h */,
+				E05FB4682534529700DF8424 /* CocoaPodTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B93DC925343ACF0022C9FF /* ViewController.m in Sources */,
-				E0B93DFC25343C410022C9FF /* THTableViewCell.m in Sources */,
 				E0B93DC325343ACF0022C9FF /* AppDelegate.m in Sources */,
 				E0B93DD425343AD00022C9FF /* main.m in Sources */,
+				E05FB4692534529700DF8424 /* CocoaPodTest.m in Sources */,
 				E0B93DC625343ACF0022C9FF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

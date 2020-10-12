@@ -1,15 +1,15 @@
 //
-//  THTableViewCell.h
+//  CocoaPodTest.h
 //  testForCocoapod
 //
 //  Created by xu yongpan on 2020/10/12.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface THTableViewCell : UITableViewCell
+@interface CocoaPodTest : NSObject
 
 @end
 
