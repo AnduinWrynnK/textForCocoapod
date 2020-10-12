@@ -1,17 +1,17 @@
 //
-//  testForCocoapodUITests.m
-//  testForCocoapodUITests
+//  SQQTTTestUITests.m
+//  SQQTTTestUITests
 //
 //  Created by xu yongpan on 2020/10/12.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface testForCocoapodUITests : XCTestCase
+@interface SQQTTTestUITests : XCTestCase
 
 @end
 
-@implementation testForCocoapodUITests
+@implementation SQQTTTestUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

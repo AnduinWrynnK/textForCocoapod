@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "textForCocoapodCode"
+  s.name         = "SQQTTTest"
   s.version      = "1.0.0"
   s.summary      = "一个建立pod仓库的简单demo."
   s.description  = <<-DESC
@@ -10,7 +10,7 @@ DESC
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   s.source       = { :git => "https://github.com/AnduinWrynnK/textForCocoapod.git", :tag => s.version.to_s }
-  s.source_files  = "Classes", "testForCocoapod/testForCocoapod/Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "SQQTTTest/SQQTTTest/Classes/**/*.{h,m}"
   s.requires_arc = true
   s.license      = {
     :type => 'Copyright',

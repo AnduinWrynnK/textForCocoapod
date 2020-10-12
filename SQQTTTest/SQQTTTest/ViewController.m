@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  testForCocoapod
+//  SQQTTTest
 //
 //  Created by xu yongpan on 2020/10/12.
 //
